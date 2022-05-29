@@ -51,7 +51,299 @@ table {
 *::after {
   box-sizing: border-box;
 }
-h1{
-    color: blue;
-
+body{
+	font-family: 'Noto Sans TC', sans-serif;
+	line-height: 1.5;
 }
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+sub{
+	vertical-align: sub;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1120px;
+	padding-right: 16px;
+	padding-left: 16px;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+.logo img{
+	height: 40px;
+}
+.paybutton_red{
+	color: white;
+	padding: 8px 32px;
+	background: #FF5D50;
+	border-radius: 22px;	
+}
+.paybutton_red:hover{
+	background:#56C4C5;
+}
+.banner{
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 101px;
+	flex-wrap: wrap;
+}
+h2{	
+	font-size: 18px;
+	color: #56C4C5;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+.slogan{
+	font-weight: bold;
+	font-size: 48px;
+}
+.solution{
+	font-size: 20px;
+	margin-top: 16px;
+}
+.banner img{
+	height: 534px;
+	margin-left: 102px
+}
+.sns{
+	text-align: center;
+}
+h3{
+	font-size: 32px;
+	font-weight: bold;	
+}
+.sns_list{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 48px;
+	flex-wrap: wrap;
+	margin-bottom: 100px;
+}
+.sns_item{
+	width: 33%;
+	text-align: center;
+}
+h4{
+	font-size: 24px;
+	font-weight: bold;
+}
+.sns_item img{
+	height: 90px;
+	margin: 0 auto;
+	margin-bottom: 24px;	
+}
+.sns_item p{
+	color: #747474;
+	margin-top: 24px;
+}
+.customize{
+	text-align: center;
+}
+.customize p{
+	font-size: 20px;
+	margin-top: 16px;
+	margin-bottom: 48px;
+}
+.customize_list{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.customize_item{
+	width: 24%;
+	border-radius: 12px;
+	box-shadow: 0px 2px 10px #00000014;
+}
+.customize_item img{
+	height: 260px;
+	margin-bottom: 16px;
+	border-radius: 12px 12px 0px 0px;
+}
+.customize_item h4{
+	font-size: 16px;
+	color: #56C4C5;
+	margin-bottom: 16px;
+}
+.customize_item p{
+	font-size: 16px;
+	color: #747474;
+}
+.brand{
+	display: flex;
+	margin-top: 100px;
+	flex-wrap: wrap;
+	margin-bottom: 72px;
+}
+.brand_list{
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;	
+}
+.brand_item{
+	width: 48%;
+	padding: 32px 48px;
+	margin-bottom: 28px;
+	box-shadow: 0px 2px 10px #00000014;
+	border-radius: 12px;
+}
+.brand_item h4{
+	font-size: 18px;
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+.circle{
+	width: 86px;
+	height: 86px;
+	padding: 18px;
+	box-shadow: 0px 2px 10px #00000014;
+	border-radius: 50%;
+}
+.circle img{
+	margin: 0 auto;
+}
+.brand_txt{
+	width: 50%;
+	padding: 165px 0px 165px 135px;
+}
+.brand_txt p{
+	margin-top: 16px;
+}
+.paybutton_green{
+	color: white;
+	padding: 12px 32px;
+	background: #56C4C5;
+	border-radius: 22px;
+	width: 136px;
+	text-align: center;
+	margin-top: 24px;
+}
+.paybutton_green:hover{
+	background: #FF5D50;
+}
+.comment{
+	text-align: center;
+	margin-bottom: 134px;
+}
+.comment_list{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.comment_item{
+	width: 32%;
+	position: relative;
+	padding: 48px 32px 0px 32px;
+	box-shadow: 0px 2px 10px #00000014;
+	border-radius: 12px;
+	margin-top: 100px;
+	text-align: left;
+}
+.user{
+	height: 80px;
+	border-radius: 50%;
+	position:absolute;
+	left: 32px;
+	top: -60px;
+}
+.comment_item h4{
+	font-size: 16px;
+	padding-top: 24px;
+	border-top: 1px solid #DDDDDD;
+	margin-bottom: 8px;
+}
+.comment_item p{
+	margin-bottom: 24px;
+}
+.rating{
+	display: flex;
+	justify-content: space-between;
+}
+.footer{
+	background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/home_footer.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.footer h3{
+	padding: 260px 471px 48px 471px;
+}
+.footer a{
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+.footer p{
+	background: #F5F5F5;
+	height: 56px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 380px){
+	.header{
+		width: 100%;
+	}
+	.banner_txt{
+		width: 100%;
+	}
+	.banner img{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.sns_item{
+		width: 100%;
+	}
+	.customize_item{
+		width: 90%;
+	}
+	.brand_item{
+		width: 100%;
+	}
+	.brand_txt{
+		width: 100%;
+	}
+	
+}
+
