@@ -54,6 +54,9 @@ table {
 body{
 	font-family: 'Noto Sans TC', sans-serif;
 	line-height: 1.5;
+	background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg);
+	background-repeat: no-repeat;
+	background-position: 85% top;
 }
 img{
 	max-width: 100%;
@@ -75,10 +78,10 @@ sub{
 .header{
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
 	align-items: center;
 	padding-top: 24px;
 	padding-bottom: 24px;
+	width: 100%;
 }
 .logo img{
 	height: 40px;
@@ -276,9 +279,11 @@ h4{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	text-align: center;
+	margin: 0 auto;
 }
 .footer h3{
-	padding: 260px 471px 48px 471px;
+	padding-top: 260px;
+	padding-bottom: 48px;
 }
 .footer a{
 	margin: 0 auto;
@@ -291,59 +296,217 @@ h4{
 	padding-bottom: 16px;
 }
 
+/*payment*/
+.payment_body{
+	background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner.svg);	
+}
+.payment_h2{
+	font-size: 48px;
+	color: black;
+	margin-top: 92px;
+}
+.plan{
+	margin-top: 280px;
+	text-align: center;
+}
+.subscriber{
+	display: flex;
+	margin-top: 48px;
+	justify-content: center;
+}
+.subscriber a{
+	padding: 12px 32px;
+	border: 1px solid #56C4C5;
+	border-radius: 27px;
+	color: #56C4C5;	
+	font-size: 18px;
+	margin-right: 16px;
+}
+.subscriber a:hover{
+	color: white;
+	background: #56C4C5;
+}
+.version_list{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 48px;
+}
+.version_item{
+	width: 48%;
+	box-shadow: 0px 2px 10px #00000014;
+	border-radius: 12px;	
+}
+.version_list h4{
+	padding: 16px 24px;
+	border-bottom: 1px solid #00000014;
+	margin-bottom: 32px;
+}
+.calculation{
+	display: flex;
+	justify-content: center;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+.cal_item{
+	padding: 24px 32px;
+	background: #F5F5F5;
+	border-radius: 12px;
+}
+.equal{
+	padding: 33px 17px;
+	font-size: 29px;
+	font-weight: bold;
+}
+.cal_txt{
+	font-size: 12px;
+}
+.subscribe_number{
+	font-size: 32px;
+	color: #56C4C5;
+}
+span{
+	font-size: 12px;
+}
+.fee_number{
+	font-size: 32px;
+}
+.version_detail{
+	text-align: left;
+	padding-left: 70px;
+}
+.version_detail li{
+	margin-bottom: 16px;
+}
+.try{
+	padding: 12px 32px;
+	border-radius: 27px;
+	color: white;
+	background:#56C4C5;	
+	font-size: 18px;
+	width: 136px;
+	margin: 0 auto;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+.try:hover{
+	background:#FF5D50;
+}
+.question{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.questionlist{
+	margin-top: 48px;
+}
+.questionlist li{
+	display: flex;
+	justify-content: space-between;
+	padding: 16px 32px;
+	font-size: 18px;
+	font-weight: normal;
+	box-shadow: 0px 2px 10px #00000014;
+	border-radius: 12px;
+}
+.questionlist h4{
+	font-size: 18px;
+	font-weight: normal;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width: 380px){
+@media(max-width: 414px){
+	body{
+		background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home_sm.svg);
+		background-position-y: 600px;
+	}
+	.logo img{
+		height: 36px
+	}
 	.header{
 		width: 100%;
+		border-bottom: 2px solid #FFD153 ;
+	}
+	.banner{
+		margin-bottom: 20px;
 	}
 	.banner_txt{
 		width: 100%;
 	}
 	.banner img{
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 	}
 	.sns_item{
 		width: 100%;
+		margin-bottom: 32px;
 	}
 	.customize_item{
 		width: 90%;
+		margin-bottom: 16px;
+	}
+	.brand{
+		flex-direction: column-reverse;
+	}
+	.brand_list{
+		width: 100%;
 	}
 	.brand_item{
 		width: 100%;
 	}
 	.brand_txt{
 		width: 100%;
+		padding-left: 0;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
-	
+	.brand_txt a{
+		margin: 0 auto;
+		margin-top: 16px;
+	}
+	.comment_item{
+		width: 100%;
+	}
+	.footer{
+		background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/footer_sm.svg);
+	}
+	.footer h3{
+		font-size: 24px;
+	}
+
+	/*payment*/
+	.payment_body{
+		background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner_sm.svg);
+		background-position-y: 90px;	
+	}
+	.payment_h2{
+		margin-top: 40px;
+	}
+	.plan{
+		margin-top: 400px;
+		text-align: center;
+		
+	}
+	.subscriber{
+		overflow: auto;	
+	}
+	.subscriber li{
+		white-space: nowrap;
+	}
+	.version_item{
+		width: 100%;
+		margin-bottom: 16px;
+	}
+	.cal_item{
+		padding: 24px 16px;
+
+	}
+	.version_detail{
+		padding-left: 10px;
+	}
+	.questionlist li{
+		padding-left: 16px;
+		padding-right: 16px;
+	}	
 }
 
