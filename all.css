@@ -315,6 +315,9 @@ h4{
 }
 .subscriber{
 	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	white-space: nowrap;
 	margin-top: 48px;
 	justify-content: center;
 }
@@ -466,10 +469,6 @@ span{
 		width: 50%;
 	}
 	/*payment*/
-	.subscriber{
-		overflow: auto;
-		white-space: nowrap;
-	}
 	.subscribe_number{
 		font-size: 28px;
 	}
