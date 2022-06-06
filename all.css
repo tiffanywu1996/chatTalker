@@ -467,9 +467,7 @@ span{
 	}
 	/*payment*/
 	.subscriber{
-		overflow: auto;	
-	}
-	.subscriber li{
+		overflow: auto;
 		white-space: nowrap;
 	}
 	.subscribe_number{
