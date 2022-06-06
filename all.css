@@ -465,6 +465,7 @@ span{
 	.brand_item{
 		width: 50%;
 	}
+	/*payment*/
 	.subscriber{
 		overflow: auto;	
 	}
@@ -472,18 +473,17 @@ span{
 		white-space: nowrap;
 	}
 	.subscribe_number{
-		font-size: 24px;
+		font-size: 28px;
 	}
 	.fee_number{
-		font-size: 24px;
+		font-size: 28px;
 	}
 	.cal_item{
 		padding: 24px 16px;
 	}
 	.version_detail{
-		padding-left: 20px;
-	}
-	
+		padding-left: 50px;
+	}	
 }
 @media(max-width: 576px){
 	.index_body{
@@ -496,6 +496,7 @@ span{
 	.comment_item{
 		width: 100%;
 	}
+	/*payment*/
 	.payment_body{
 		background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner_sm.svg);
 		background-position: 200px 10px;
@@ -505,7 +506,7 @@ span{
 		margin-bottom: 16px;
 	}
 	.version_detail{
-		padding-left: 80px;
+		padding-left: 90px;
 	}	
 }
 @media(max-width: 414px){
@@ -530,7 +531,6 @@ span{
 	.footer h3{
 		font-size: 24px;
 	}
-
 	/*payment*/
 	.payment_body{
 		background-position:0px 90px;	
@@ -540,15 +540,14 @@ span{
 	}
 	.plan{
 		margin-top: 400px;
-		text-align: center;
-		
-	}
-	.version_detail{
-		padding-left: 50px;
+		text-align: center;	
 	}
 	.questionlist li{
 		padding-left: 16px;
 		padding-right: 16px;
+	}
+	.version_detail{
+		padding-left: 50px;
 	}	
 }
 
