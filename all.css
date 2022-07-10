@@ -71,7 +71,7 @@ a{
 sub{
 	vertical-align: sub;
 }
-.header{
+.header .container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -313,13 +313,16 @@ h4{
 	margin-top: 280px;
 	text-align: center;
 }
+.subscriber_wrap{
+	display: flex;
+}
 .subscriber{
+	margin: 0 auto;
 	display: flex;
 	flex-wrap: nowrap;
 	overflow-x: auto;
 	white-space: nowrap;
 	margin-top: 48px;
-	justify-content: center;
 }
 .subscriber a{
 	padding: 12px 32px;
